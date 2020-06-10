@@ -72,20 +72,20 @@ html, body{
   margin-bottom:1rem;
 }
 
-.fa-code, .fa-bold, .fa-cubes{
+.fa-chess-king, .fa-rupee-sign, .fa-truck{
   font-size: 4em;
   margin:1rem;
 }
 
-.fa-code{
-  color:#e54d26;
+.fa-chess-king{
+  color:grey;
 }
-.fa-bold{
-  color:purple;
+.fa-rupee-sign{
+  color:lightgreen;
 }
 
-.fa-cubes{
-  color:black;
+.fa-truck{
+  color:skyblue;
 }
 
 .fun{
