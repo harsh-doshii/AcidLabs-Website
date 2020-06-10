@@ -39,10 +39,8 @@ html, body{
 
 .carousel-caption h1{
   font-size: 500%;
-  text-transform: uppercase;
   text-shadow: 1px 1px 10px #000;
   color: white;
-  font-family: Courier New, monospace;
 }
 
 .carousel-caption h3{
@@ -160,7 +158,7 @@ footer{
   padding: 4px 8px;
 }
 .carousel-indicators{
-  display: none;
+  padding-top: 2px;
 }
 
 }
