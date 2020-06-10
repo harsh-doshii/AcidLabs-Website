@@ -73,16 +73,22 @@ html, body{
   margin-bottom:1rem;
 }
 
-.fa-chess-king, .fa-rupee-sign, .fa-truck{
+#features .fa-chess-king, .fa-truck{
   font-size: 4em;
   margin:1rem;
+}
+
+.price span{
+  padding:20px;
 }
 
 .fa-chess-king{
   color:grey;
 }
-.fa-rupee-sign{
+#features .fa-rupee-sign{
   color:lightgreen;
+  font-size: 4em;
+  margin:1rem;
 }
 
 .fa-truck{
@@ -97,6 +103,7 @@ html, body{
 .gif{
   max-width: 100%;
 }
+
 .social a{
   font-size: 4.5em;
   padding: 3rem;
@@ -107,6 +114,8 @@ footer{
   color: #d5d5d5;
   padding-top: 2rem;
 }
+
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
