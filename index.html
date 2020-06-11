@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>AcidLabs</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -166,7 +167,7 @@
 	</div>
 </div>
 <!--- Meet the team -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" data-aos="flip-left">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4" id="shop">Catalouge</h1>
@@ -178,7 +179,8 @@
 <div class="container-fluid padding" id="teams">
 	<div class="row padding">
 		<div class="col-md-3">
-			<div class="card">
+			<div class="card" data-aos="fade-up"
+     data-aos-duration="3000">
 				<img class="card-img-top" src="img/yel.jpg">
 				<div class="card-body">
 					<h4 class="card-title">John Doe</h4>
@@ -194,7 +196,8 @@
 			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="card">
+			<div class="card" data-aos="fade-up"
+     data-aos-duration="3000">
 				<img class="card-img-top" src="img/myel.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Mary Jo</h4>
@@ -208,7 +211,8 @@
 			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="card">
+			<div class="card" data-aos="fade-up"
+     data-aos-duration="3000">
 				<img class="card-img-top" src="img/black.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Phil</h4>
@@ -222,7 +226,8 @@
 			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="card">
+			<div class="card" data-aos="fade-up"
+     data-aos-duration="3000">
 				<img class="card-img-top" src="img/white.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Whites</h4>
@@ -306,6 +311,10 @@
 	</div>
 </footer>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
