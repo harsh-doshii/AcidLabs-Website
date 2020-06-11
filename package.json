@@ -20,6 +20,7 @@
     "font-awesome": "^4.7.0",
     "hover.css": "^2.3.2",
     "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.12.9",
+    "vhs": "^0.2.0"
   }
 }
