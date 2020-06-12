@@ -54,6 +54,18 @@ html, body{
   background-color:#563d7c;
 }
 
+.highlights-banners-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 30px;
+    color: #231f20;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eee;
+}
+
 .jumbotron{
   padding: 1rem;
   border-radius: 0;
@@ -78,21 +90,18 @@ html, body{
   margin:1rem;
 }
 
-.price span{
-  padding:20px;
-}
 
 .fa-chess-king{
-  color:grey;
+  color:black;
 }
 #features .fa-rupee-sign{
-  color:lightgreen;
+  color:black;
   font-size: 4em;
   margin:1rem;
 }
 
 .fa-truck{
-  color:skyblue;
+  color:black;
 }
 
 .fun{
@@ -107,6 +116,7 @@ html, body{
 .social a{
   font-size: 4.5em;
   padding: 3rem;
+  color:black;
 }
 
 footer{
