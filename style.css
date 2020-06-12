@@ -55,21 +55,35 @@ html, body{
 }
 
 .wave{
+  position: absolute;
   background: url(img/wave-top.png);
   height: 119px;
   width:100%;
   animation: animate 10s linear infinite;
 }
 
+.wave:before {
+  content: '';
+  background: url(img/wave-top.png);
+  height: 119px;
+  width:100%;
+  position: absolute;
+  opacity: 0.4;
+  animation: animate-rev 10s linear infinite;
+  background-color: grey;
+}
+
 @keyframes animate{
   0%{
     background-position:0px;
+    background-color: grey;
   }
   100%{
     background-position:1920px;
     background-color: black;
   }
 }
+
 
 .jumbotron{
   padding: 1rem;
