@@ -70,13 +70,13 @@ html, body{
   position: absolute;
   opacity: 0.4;
   animation: animate-rev 10s linear infinite;
-  background-color: grey;
+  background-color: black;
 }
 
 @keyframes animate{
   0%{
     background-position:0px;
-    background-color: grey;
+    background-color: black;
   }
   100%{
     background-position:1920px;
@@ -84,6 +84,16 @@ html, body{
   }
 }
 
+@keyframes animate-rev{
+  0%{
+    background-position:1200px;
+    background-color: black;
+  }
+  100%{
+    background-position:0px;
+    background-color: black;
+  }
+}
 
 .jumbotron{
   padding: 1rem;
